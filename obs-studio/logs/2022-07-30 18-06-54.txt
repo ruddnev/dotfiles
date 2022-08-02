@@ -1,0 +1,84 @@
+18:06:54.377: CPU Name: AMD Ryzen 5 3600X 6-Core Processor
+18:06:54.377: CPU Speed: 2200.000MHz
+18:06:54.377: Physical Cores: 6, Logical Cores: 12
+18:06:54.377: Physical Memory: 15928MB Total, 12233MB Free
+18:06:54.377: Kernel Version: Linux 5.18.14-arch1-1
+18:06:54.377: Distribution: "Arch Linux" Unknown
+18:06:54.377: Session Type: x11
+18:06:54.377: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+18:06:54.381: Qt Version: 5.15.5 (runtime), 5.15.5 (compiled)
+18:06:54.381: Portable mode: false
+18:06:54.395: OBS 27.2.4-2 (linux)
+18:06:54.395: ---------------------------------
+18:06:54.395: ---------------------------------
+18:06:54.395: audio settings reset:
+18:06:54.395: 	samples per sec: 48000
+18:06:54.395: 	speakers:        2
+18:06:54.396: ---------------------------------
+18:06:54.396: Initializing OpenGL...
+18:06:54.463: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 960/PCIe/SSE2
+18:06:54.463: OpenGL loaded successfully, version 3.3.0 NVIDIA 515.57, shading language 3.30 NVIDIA via Cg compiler
+18:06:54.508: ---------------------------------
+18:06:54.508: video settings reset:
+18:06:54.508: 	base resolution:   1920x1080
+18:06:54.508: 	output resolution: 1280x720
+18:06:54.508: 	downscale filter:  Bicubic
+18:06:54.508: 	fps:               30/1
+18:06:54.508: 	format:            NV12
+18:06:54.508: 	YUV mode:          709/Partial
+18:06:54.508: NV12 texture support not available
+18:06:54.508: Audio monitoring device:
+18:06:54.508: 	name: Default
+18:06:54.508: 	id: default
+18:06:54.508: ---------------------------------
+18:06:54.509: Failed to load 'en-US' text for module: 'decklink-captions.so'
+18:06:54.510: Failed to load 'en-US' text for module: 'decklink-ouput-ui.so'
+18:06:54.510: os_dlopen(/usr//lib/obs-plugins/frontend-tools.so->/usr//lib/obs-plugins/frontend-tools.so): libluajit-5.1.so.2: cannot open shared object file: No such file or directory
+18:06:54.510: 
+18:06:54.510: Module '/usr//lib/obs-plugins/frontend-tools.so' not loaded
+18:06:54.530: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+18:06:54.530: No blackmagic support
+18:06:54.539: v4l2loopback not installed, virtual camera disabled
+18:06:54.566: NVENC supported
+18:06:54.566: FFMPEG VAAPI supported
+18:06:54.570: os_dlopen(/usr//lib/obs-plugins/sndio.so->/usr//lib/obs-plugins/sndio.so): libsndio.so.7: cannot open shared object file: No such file or directory
+18:06:54.570: 
+18:06:54.570: Module '/usr//lib/obs-plugins/sndio.so' not loaded
+18:06:54.571: ---------------------------------
+18:06:54.571:   Loaded Modules:
+18:06:54.571:     text-freetype2.so
+18:06:54.571:     rtmp-services.so
+18:06:54.571:     obs-x264.so
+18:06:54.571:     obs-transitions.so
+18:06:54.571:     obs-outputs.so
+18:06:54.571:     obs-libfdk.so
+18:06:54.571:     obs-filters.so
+18:06:54.571:     obs-ffmpeg.so
+18:06:54.571:     linux-v4l2.so
+18:06:54.571:     linux-pulseaudio.so
+18:06:54.571:     linux-jack.so
+18:06:54.571:     linux-decklink.so
+18:06:54.571:     linux-capture.so
+18:06:54.571:     linux-alsa.so
+18:06:54.571:     image-source.so
+18:06:54.571:     decklink-ouput-ui.so
+18:06:54.571:     decklink-captions.so
+18:06:54.571: ---------------------------------
+18:06:54.571: ==== Startup complete ===============================================
+18:06:54.573: No scene file found, creating default scene
+18:06:54.627: All scene data cleared
+18:06:54.627: ------------------------------------------------
+18:06:54.633: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.56) 15.0.0'
+18:06:54.633: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+18:06:54.633: pulse-input: Started recording from 'alsa_output.pci-0000_0c_00.4.analog-stereo.monitor'
+18:06:54.634: pulse-input: Server name: 'PulseAudio (on PipeWire 0.3.56) 15.0.0'
+18:06:54.634: pulse-input: Audio format: s16le, 16000 Hz, 4 channels
+18:06:54.634: pulse-input: Started recording from 'alsa_input.usb-OmniVision_Technologies__Inc._USB_Camera-B4.09.24.1-01.analog-surround-40'
+18:06:54.634: Switched to scene 'Scene'
+18:06:54.634: Failed to glob scene collections
+18:06:55.153: [rtmp-services plugin] Successfully updated file 'services.json' (version 201)
+18:06:55.153: [rtmp-services plugin] Successfully updated package (version 201)
+18:06:55.238: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Desktop Audio)
+18:06:55.238: 
+18:06:55.280: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+18:06:55.280: 
