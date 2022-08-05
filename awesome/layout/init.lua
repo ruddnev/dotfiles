@@ -1,5 +1,6 @@
 local awful = require('awful')
 local top_panel = require('layout.top-panel')
+local beautiful = require('beautiful')
 
 -- Create a wibox for each screen and add it
 awful.screen.connect_for_each_screen(

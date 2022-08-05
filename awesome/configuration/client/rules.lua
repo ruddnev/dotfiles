@@ -43,6 +43,21 @@ awful.rules.rules = {
       skip_decoration = true
     }
   },
+  {
+    rule_any = {name = {'mpv'}},
+    properties = {
+      skip_decoration = true,
+      placement = awful.placement.centered,
+      ontop = true,
+      -- floating = true,
+      drawBackdrop = true,
+      shape = function()
+        return function(cr, w, h)
+          gears.shape.rounded_rect(cr, w, h, 8)
+        end
+      end
+    }
+  },
   -- Titlebars
   {
     rule_any = {

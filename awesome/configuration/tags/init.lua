@@ -8,18 +8,21 @@ local tags = {
     icon = icons.chrome,
     type = 'chrome',
     defaultApp = apps.default.rofi,
+    layout = awful.layout.suit.tile,
     screen = 1
   },
   {
     icon = icons.code,
     type = 'code',
     defaultApp = apps.default.rofi,
+    layout = awful.layout.suit.tile,
     screen = 1
   },
   {
     icon = icons.social,
     type = 'social',
     defaultApp = apps.default.rofi,
+    layout = awful.layout.suit.tile,
     screen = 1
   },
   -- {
@@ -32,25 +35,28 @@ local tags = {
     icon = icons.folder,
     type = 'files',
     defaultApp = apps.default.rofi,
+    layout = awful.layout.suit.tile,
     screen = 1
   },
   {
     icon = icons.media,
     type = 'music',
     defaultApp = apps.default.rofi,
-    screen = 1
-  },
-  {
-    icon = icons.obs,
-    type = 'any',
-    defaultApp = apps.default.rofi,
+    layout = awful.layout.suit.max,
     screen = 1
   }
+  -- {
+  --   icon = icons.obs,
+  --   type = 'any',
+  --   defaultApp = apps.default.rofi,
+  --   screen = 1
+  -- }
 }
 
 awful.layout.layouts = {
   awful.layout.suit.tile,
   awful.layout.suit.max,
+  -- awful.layout.suit.magnifier,
   awful.layout.suit.floating
 }
 
@@ -62,7 +68,7 @@ awful.screen.connect_for_each_screen(
         {
           icon = tag.icon,
           icon_only = true,
-          layout = awful.layout.suit.tile,
+          layout = tag.layout,
           gap_single_client = true,
           gap = 4,
           screen = s,

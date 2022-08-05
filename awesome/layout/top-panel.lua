@@ -63,6 +63,7 @@ add_button:buttons(
           {
             tag = _G.mouse.screen.selected_tag,
             placement = awful.placement.bottom_right
+            -- placement = awful.placement.centered
           }
         )
       end
@@ -123,10 +124,13 @@ local TopPanel = function(s)
       stretch = false,
       bg = beautiful.background.hue_800,
       fg = beautiful.fg_normal,
+      -- opacity = 0.7,
+      -- container.background.opacity = 0.5,
       struts = {
         top = dpi(32)
       }
     }
+    -- wibox.container.background.opacity = 0.5
     )
 
     panel:struts(

@@ -37,6 +37,9 @@ return {
     --'xfce4-power-manager', -- Power manager
     'numlockx on', -- enable numlock
 
+    -- 'org.telegram.desktop',
+
+
     'pnmixer', -- shows an audiocontrol applet in systray when installed.
     'redshift-gtk -l 59.94:30.25', -- f.lux alternative
     'flameshot', -- screenshots

@@ -278,14 +278,14 @@ local globalKeys =
       end,
       {description = 'Select next', group = 'layout'}
     ),
-    awful.key(
-      {modkey, 'Shift'},
-      'space',
-      function()
-        awful.layout.inc(-1)
-      end,
-      {description = 'Select previous', group = 'layout'}
-    ),
+    -- awful.key(
+    --   {modkey, 'Shift'},
+    --   'space',
+    --   function()
+    --     awful.layout.inc(-1)
+    --   end,
+    --   {description = 'Select previous', group = 'layout'}
+    -- ),
   -- (Disabled) Brightness
     -- awful.key(
     --   {},
@@ -364,6 +364,7 @@ local globalKeys =
             {
               tag = _G.mouse.screen.selected_tag,
               placement = awful.placement.bottom_right
+              -- placement = awful.placement.centered
             }
           )
       end,
